@@ -10,3 +10,9 @@ export const registerSchema = z.object({
   email: z.string().email(),
   password: z.string().min(6),
 });
+export const registerSchemaAdmin = z.object({
+  username: z.string().min(3, "Username minimal 3 karakter"),
+  email: z.string().email(),
+  password: z.string().min(6),
+  role: z.string()
+});

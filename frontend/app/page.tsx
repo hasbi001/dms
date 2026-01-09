@@ -76,6 +76,12 @@ export default function Home() {
         >
           Create New Account
         </Link>
+        <Link
+          href="/register-admin"
+          className="block w-full text-center border border-blue-600 text-blue-600 hover:bg-blue-50 py-2 rounded transition"
+        >
+          Create New Account Admin
+        </Link>
       </form>
     </div>
   );
