@@ -23,7 +23,6 @@ app.use(
   })
 );
 
-// ✅ PERBAIKAN UTAMA DI SINI
 const apiRoutes = require("./app/routes/api.route");
 app.use("/api", apiRoutes);
 

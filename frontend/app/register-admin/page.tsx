@@ -29,7 +29,7 @@ const RegisterPage = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)} className="p-6 max-w-md mx-auto">
+    <form onSubmit={handleSubmit(onSubmit)} className="p-6 max-w-md mx-auto text-white">
       <h1 className="text-xl font-bold mb-4">Register Admin</h1>
 
       <Input label="Username" register={register("username")} error={errors.username} />
